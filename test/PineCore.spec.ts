@@ -1,10 +1,10 @@
-import { web3, artifacts } from '@nomiclabs/buidler'
+import { artifacts, web3 } from 'hardhat'
+const BN = require('bn.js');
 
 import { balanceSnap, etherSnap } from './helpers/balanceSnap'
 import { toAddress, ethAddress } from './helpers/account'
 import assertRevert from './helpers/assertRevert'
 
-const BN = web3.utils.BN
 const expect = require('chai').use(require('bn-chai')(BN)).expect
 
 const ERC20 = artifacts.require('FakeERC20')

@@ -1,8 +1,6 @@
+import { web3 } from 'hardhat'
 
-
-import { web3 } from '@nomiclabs/buidler'
-
-const BN = web3.utils.BN
+const BN = require('bn.js');
 const expect = require('chai')
   .use(require('bn-chai')(BN))
   .expect

@@ -32,7 +32,7 @@
   },
 
   "files": [
-    "./buidler.config.ts",
+    "hardhat.config.ts",
     "node_modules/@nomiclabs/buidler-web3/src/type-extensions.d.ts",
     "node_modules/@nomiclabs/buidler-truffle5/src/type-extensions.d.ts"
   ],

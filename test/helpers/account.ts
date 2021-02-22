@@ -1,5 +1,5 @@
-import { web3 } from '@nomiclabs/buidler'
 const eutils = require('ethereumjs-util')
+const web3 = require('web3')
 
 export const ethAddress = '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 

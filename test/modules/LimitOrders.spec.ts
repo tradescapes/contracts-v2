@@ -1,10 +1,10 @@
-import { web3, artifacts } from '@nomiclabs/buidler'
+import { artifacts, web3 } from 'hardhat'
 
 import { balanceSnap, etherSnap } from '../helpers/balanceSnap'
 import assertRevert from '../helpers/assertRevert'
 import { sign, toAddress } from '../helpers/account'
 
-const BN = web3.utils.BN
+const BN = require('bn.js');
 const expect = require('chai').use(require('bn-chai')(BN)).expect
 
 const PineCore = artifacts.require('PineCore')
